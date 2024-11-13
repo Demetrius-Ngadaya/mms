@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Update Event</title>
+</head>
+<body>
+    <form method="POST">
+    <h2>Update Event</h2>
+
+        <label for="status">Event Status:</label>
+        <select name="status" id="status">
+            <option value="Upcoming" <?php if ($event['status'] == 'Upcoming') echo 'selected'; ?>>Upcoming</option>
+            <option value="Completed" <?php if ($event['status'] == 'Completed') echo 'selected'; ?>>Completed</option>
+            <option value="Cancelled" <?php if ($event['status'] == 'Cancelled') echo 'selected'; ?>>Cancelled</option>
+        </select><br>
+
+        <button type="submit">Update Status</button>
+    </form>
+</body>
+</html>
