@@ -12,6 +12,8 @@ This Marathon Management System is a PHP-based application that helps organizer 
 7. Troubleshooting
 
 1. Prerequisites
+
+2. 
 To set up the Marathon Management System on your local machine, ensure that the following software is installed:
 
 XAMPP (includes Apache and MySQL)
@@ -59,7 +61,7 @@ Sample Credentials
 To log in as an organizer  use the following sample credentials:
 
 Username: Demetrius
-Password: 123456
+Password: 123456 
 
 7. Troubleshooting
 Issue: "Connection failed" error in db_connect.php
